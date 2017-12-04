@@ -2,7 +2,10 @@
   "name": "react-click-boundary",
   "version": "0.1.0",
   "description": "Catch outside clicks with a React component",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "BABEL_ENV=production babel src -d dist"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/deiucanta/react-click-boundary.git"
@@ -25,6 +28,8 @@
     "react": "^16.2.0"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.0",
     "prop-types": "^15.6.0"
   }
 }
