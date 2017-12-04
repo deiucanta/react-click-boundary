@@ -1,0 +1,30 @@
+{
+  "name": "react-click-boundary",
+  "version": "0.1.0",
+  "description": "Catch outside clicks with a React component",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deiucanta/react-click-boundary.git"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "click",
+    "outside",
+    "boundary",
+    "onClickOutside"
+  ],
+  "author": "Andrei Canta <deiucanta@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deiucanta/react-click-boundary/issues"
+  },
+  "homepage": "https://github.com/deiucanta/react-click-boundary#readme",
+  "dependencies": {
+    "react": "^16.2.0"
+  },
+  "devDependencies": {
+    "prop-types": "^15.6.0"
+  }
+}
